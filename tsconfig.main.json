@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist/app",
+    "noEmit": false,
+    "module": "CommonJS",
+    "types": ["node"]
+  },
+  "include": [
+    "Client/app/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "release"
+  ]
+}
